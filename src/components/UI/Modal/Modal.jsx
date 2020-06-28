@@ -10,7 +10,7 @@ const Modal = (props) => {
         className={classes.Modal}
         style={{
           msTransform: props.show ? "translateY(0)" : "translateY(-100vh)",
-          display: props.show ? "inline" : "none",
+          display: props.show ? "inherit" : "none",
         }}
       >
         {props.children}
